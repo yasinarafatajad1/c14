@@ -1,0 +1,80 @@
+
+
+
+
+/* ===== Common Css ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+/* ====== Header ====== */
+#header{
+    padding: 10px;
+}
+#header h1{
+    font: 2em sans-serif;
+    text-align: center;
+}
+#header h1 span{
+    display: block;
+    color: #eb3131;
+    font-weight: 500;
+    font: 2em sans-serif;
+}
+/* === Shape Tittle === */
+.tittle{
+    padding: 10px;
+}
+/* ===== Yin Yang Shape ===== */
+#yin-yang{
+    padding: 40px;
+}
+#yin-yang .wraper{
+    height: 300px;
+    width: 300px;
+    background: aliceblue;
+    border-radius: 100%;
+    border: #000 solid;
+    border-width: 3px 3px 150px 3px;
+    transform: rotate(-90deg);
+    position: relative;
+}
+#yin-yang .wraper::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 40px ;
+    width: 40px;
+    background: aliceblue;
+    border: 54px solid #000;
+    border-radius: 100%;
+}
+#yin-yang .wraper::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background: #000;
+    border: 54px solid aliceblue;
+    border-radius: 100%;
+}
+/* ===== Bio Hazard ===== */
+#biohazard{
+    padding: 40px;
+}
+#biohazard .wraper{
+    width: 0px;
+    height: 0px;
+    border: solid 150px;
+    border-radius: 100%;
+    border-color: #000 #ccff00;
+}
+/* Code by YASIN ARAFAT AJAD */
